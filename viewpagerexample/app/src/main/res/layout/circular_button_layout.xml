@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <leo.com.example.viewpagerexample.custom.CustomView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/customView"
+        custom:circleTextColor="@android:color/white"
+        custom:circleTextSize="100"
+        custom:circleText="0"
+        custom:circleColor="@android:color/holo_blue_dark"
+        />
+</RelativeLayout>
+
